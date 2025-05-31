@@ -2,7 +2,9 @@
 public class Interfaces {
     public static void main(String[] args) {
         Machine machine1 = new Machine();
-        machine1.start();
+        // Start() Stop() methods come from IStartable interface
+        machine1.Start();
+        machine1.Stop();
 
         Person person1 = new Person("John");
         person1.greet();

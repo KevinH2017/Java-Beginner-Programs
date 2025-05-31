@@ -1,4 +1,4 @@
 public interface IStartable {
-    public void start();
-    public void stop();
+    public void Start();
+    public void Stop();
 }
