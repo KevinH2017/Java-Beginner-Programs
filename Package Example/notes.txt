@@ -1,0 +1,7 @@
+open in vscode as a folder
+
+package name must be the same name as the folder name
+
+package must be in a folder in the same directory as the main java file
+
+it is called relative to the main java file
