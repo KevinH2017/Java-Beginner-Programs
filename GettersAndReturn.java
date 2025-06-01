@@ -6,19 +6,19 @@ class Person {
         System.out.println("My name is: " + name );
     }
     // Method calculates and returns int yearsLeft variable
-    int CalculateYearsToRetirement() {
+    int calculateYearsToRetirement() {
         int yearsLeft = 65 - age;
 
         return yearsLeft;
     }
 
     // Method returns int age variable
-    int GetAge() {
+    int getAge() {
         return age;
     }
 
     // Method returns String name variable
-    String GetName() {
+    String getName() {
         return name;
     }
 }
@@ -31,12 +31,12 @@ public class GettersAndReturn {
 
         // person1.speak();
         
-        int years = person1.CalculateYearsToRetirement();
+        int years = person1.calculateYearsToRetirement();
         System.out.println(years + " years until retirement.");
 
         // Gets age and name from class Person methods GetAge() and GetName()
-        int age = person1.GetAge();
-        String name = person1.GetName();
+        int age = person1.getAge();
+        String name = person1.getName();
         System.out.println("My name is: " + name);
         System.out.println("My age is: " + age);
     }

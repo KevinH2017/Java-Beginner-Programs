@@ -7,8 +7,8 @@ public class Inheritance {
 
         Car car1 = new Car();
         car1.start();
-        car1.WipeWindshield();
-        car1.ShowInfo();
+        car1.wipeWindshield();
+        car1.showInfo();
         car1.stop();
     }
 }

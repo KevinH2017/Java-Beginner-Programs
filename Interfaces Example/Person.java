@@ -9,7 +9,7 @@ public class Person implements Info {
         System.out.println("Hello there!");
     }
 
-    public void ShowInfo() {
+    public void showInfo() {
         System.out.println("Name: " + name);
     }
 }

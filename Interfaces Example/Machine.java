@@ -7,13 +7,13 @@ public class Machine implements Info, IStartable {
     // }
 
     // Uses ShowInfo() method from interface Info
-    public void ShowInfo() {
+    public void showInfo() {
         System.out.println("Machine ID: " + id);
     }
-    public void Start() {
+    public void start() {
         System.out.println("Machine Started!");
     }
-    public void Stop() {
+    public void stop() {
         System.out.println("Machin Stopped!");
     }
 }

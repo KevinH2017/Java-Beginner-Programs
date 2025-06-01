@@ -12,11 +12,11 @@ public class Car extends Machine {
         System.out.println("Car Started!");
     }
     
-    public void WipeWindshield() {
+    public void wipeWindshield() {
         System.out.println("Wiping Windshield");
     }
 
-    public void ShowInfo() {
+    public void showInfo() {
         System.out.println("Car Name: " + name);
     }
 }
