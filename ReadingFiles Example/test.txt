@@ -1,0 +1,12 @@
+5
+first line
+second line
+third line
+
+cat
+fox
+dog
+bird
+cat
+
+etc
