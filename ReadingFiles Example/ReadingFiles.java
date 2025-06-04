@@ -10,6 +10,7 @@ public class ReadingFiles {
     public static void main(String[] args) throws FileNotFoundException {
         // File to read
         String filename = "test.txt";
+        System.out.println("---File Class---");
 
         // Creates file object from filepath
         // Uses File class to create object for Scanner class
@@ -22,16 +23,18 @@ public class ReadingFiles {
         System.out.println("Integer value: " + num);
         fileScan.nextLine();
 
-        int count = 0;
-        // Prints out each line of the file
+        int count = 1;
+        // Prints out each line of the file with line count
         while (fileScan.hasNextLine()) {
             String text = fileScan.nextLine();
             System.out.println("Line " + count + ": " + text);
-            // Counts each line, including newlines (skipped first line "5" because of .nextInt() from above)
+            // Line counter, includes newlines (skipped first line "5" because of .nextLine() from above)
             count++;
         }
-        // Closes file
-        fileScan.close();       
+        // Closes Scanner object
+        fileScan.close();      
+
+        System.out.println("\n---Path Class---");
 
         // Creates Path object from filepath
         // Uses Path class to get absolute filepath for Scanner class
@@ -44,7 +47,7 @@ public class ReadingFiles {
                 String text = scanner.nextLine();
                 System.out.println(text);
             }
-        }  catch (IOException e) {
+        } catch (IOException e) {
             System.err.println("Error reading file: " + e.getMessage());
         }
     }
