@@ -1,3 +1,3 @@
 # Java Beginner Programs
- Beginner programs from Udemy class "Java Tutorial for Complete Beginners" by John Purcell  
+ My Java programs based on lessons from the Udemy class "Java Tutorial for Complete Beginners" by John Purcell  
  Link: https://www.udemy.com/course/java-tutorial/
