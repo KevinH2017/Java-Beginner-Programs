@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class CreateWriteFiles {
     public static void main(String[] args) {
-        // File will be created in the same location as this program
+        // Creates file in the same directory as this program
         File file = new File("text.txt");
 
         // BufferedWriter and FileWriter to write to text file
