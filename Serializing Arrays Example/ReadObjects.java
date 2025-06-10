@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
-// Reads objects for serialization
+// Reads objects for deserialization
 public class ReadObjects {
     public static void main(String[] args) {
         System.out.println("Reading objects...");
