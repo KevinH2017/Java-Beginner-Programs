@@ -5,10 +5,10 @@
 
 ## NOTES:
 
-Code folders must be opened in separate Visual Studio Code windows in order to run
+Code folders must be opened in separate Visual Studio Code windows in order to run.
 
-Java filename must be the same as public class
+As well as, open java files in separate new windows and not from the same folder in vscode to avoid missing methods errors.
 
-Ignore "Resource leak: _Blank_ is never close" warnings
+Java filename must be the same as public class.
 
-Open java files in separate new windows and not from the same folder in vscode to avoid missing methods errors
+Ignore "Resource leak: _Blank_ is never close" warnings.
