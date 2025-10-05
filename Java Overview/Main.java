@@ -4,15 +4,10 @@ import java.util.List;
 
 /**
  * The Main class demonstrates basic Java syntax and features, including:
- * <ul>
- *   <li>Printing messages to the console using {@code System.out.println} and {@code System.err.println}.</li>
- *   <li>Creating and manipulating {@link ArrayList} and {@link List} collections.</li>
- *   <li>Declaring variables of different data types, including a reference to a custom {@code Temp} class.</li>
- * </ul>
- * 
- * <p>
- * The {@code main} method serves as the entry point for the application.
- * </p>
+ *   - Printing messages to the console using System.out.println and System.err.println
+ *   - Creating and manipulating ArrayList and List collections
+ *   - Declaring variables of different data types, including a reference to a custom Temp class
+ * The Main method serves as the entry point for the application
  */
 public class Main {
     public static void main(String[] args) {
