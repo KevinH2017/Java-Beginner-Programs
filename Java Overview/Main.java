@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/**
+/*
  * The Main class demonstrates basic Java syntax and features, including:
  *   - Printing messages to the console using System.out.println and System.err.println
  *   - Creating and manipulating ArrayList and List collections
