@@ -1,4 +1,4 @@
-/**
+/*
  * The Person class represents a person with a unique identifier and a name
  * It provides methods to access and modify these attributes, as well as to compare
  * Person objects for equality and generate hash codes
