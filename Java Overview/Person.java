@@ -1,22 +1,17 @@
 /**
- * The {@code Person} class represents a person with a unique identifier and a name.
+ * The Person class represents a person with a unique identifier and a name
  * It provides methods to access and modify these attributes, as well as to compare
- * {@code Person} objects for equality and generate hash codes.
- * <p>
- * Example usage:
- * <pre>
+ * Person objects for equality and generate hash codes
+ *
+ * Example:
  *     Person person = new Person(1, "Alice");
  *     String name = person.getName();
  *     int id = person.getId();
- * </pre>
- * </p>
- *
- * <ul>
- *   <li>Private fields: {@code name} (String), {@code Id} (int)</li>
- *   <li>Constructor to initialize {@code Id} and {@code name}</li>
- *   <li>Getters and setters for both fields</li>
- *   <li>Overrides {@code equals()}, {@code hashCode()}, and {@code toString()} methods</li>
- * </ul>
+ * 
+ *   Private fields: name String, Id int
+ *   Constructor to initialize Id and name
+ *   Getters and setters for both fields
+ *   Overrides equals(), hashCode(), and toString() methods
  */
 public class Person {
     // private variables cannot be modified outside of their class
