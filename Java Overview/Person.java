@@ -3,10 +3,10 @@
  * It provides methods to access and modify these attributes, as well as to compare
  * Person objects for equality and generate hash codes
  *
- * Example:
- *     Person person = new Person(1, "Alice");
- *     String name = person.getName();
- *     int id = person.getId();
+ *  Example:
+ *  Person person = new Person(1, "Alice");
+ *  String name = person.getName();
+ *  int id = person.getId();
  * 
  *   Private fields: name String, Id int
  *   Constructor to initialize Id and name
